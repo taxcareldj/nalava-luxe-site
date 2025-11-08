@@ -2,17 +2,17 @@ import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
 
 const Footer = () => {
   const navLinks = [
-    { label: "Home / Kilau Jaktim", href: "#home" },
+    { label: "Kilau Jaktim", href: "#home" },
     { label: "Profile", href: "#profile" },
     { label: "Media Sosial", href: "#media-sosial" },
     { label: "More", href: "#more" },
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "https://www.facebook.com/kanwildjpjaktim", label: "Facebook" },
+    { icon: Facebook, href: "https://www.facebook.com/pajakjaktim", label: "Facebook" },
     { icon: Instagram, href: "https://www.instagram.com/pajakjaktim", label: "Instagram" },
     { icon: Twitter, href: "https://twitter.com/pajakjaktim", label: "Twitter" },
-    { icon: Mail, href: "mailto:kontak@pajak.go.id", label: "Email" },
+    { icon: Mail, href: "mailto:kanwil.110@pajak.go.id", label: "Email" },
   ];
 
   return (
@@ -68,7 +68,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-primary-foreground/20 pt-6 text-center text-sm text-primary-foreground/70">
-          <p>&copy; 2025 Kanwil DJP Jaktim / KilauJaktim. All rights reserved.</p>
+          <p>&copy; 2025 KilauJaktim. All rights reserved.</p>
         </div>
       </div>
     </footer>
