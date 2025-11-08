@@ -16,7 +16,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary border-b border-border backdrop-blur-sm">
       <nav className="container mx-auto px-4 lg:px-8 h-16 flex items-center justify-between">
         {/* ===== Logo Area ===== */}
-        <a href="#" className="flex items-center gap-2">
+        <a href="#" className="flex items-center">
           <img
             src="/KilauJaktim2.png" // pastikan file ini ada di folder public/
             alt="Kilau Jaktim Logo"
