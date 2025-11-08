@@ -81,6 +81,38 @@ const Home = () => {
 
 
 export default Home;
+import { FileText } from "lucide-react";
+
+export default function Home() {
+  return (
+    <section className="bg-blue-600 text-white py-10 px-6">
+      <div className="max-w-4xl mx-auto text-center">
+        <h1 className="text-4xl font-bold mb-2">
+          Selamat datang, <span className="text-yellow-400">#KawanPajak</span>
+        </h1>
+        <p className="text-blue-100 mb-8">
+          Silakan pilih menu sesuai kebutuhan perpajakan anda
+        </p>
+
+        {/* Kartu / tombol Tutorial Perpajakan */}
+        <a
+          href="https://www.youtube.com/@DitjenPajakRI/playlists"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-4 bg-white text-gray-900 rounded-2xl p-4 shadow hover:shadow-md transition max-w-md mx-auto"
+        >
+          <FileText className="text-blue-600 w-8 h-8" />
+          <div className="text-left">
+            <h3 className="text-lg font-semibold">Tutorial Perpajakan</h3>
+            <p className="text-sm text-gray-500">
+              Panduan lengkap perpajakan untuk #KawanPajak
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+  );
+}
 
 
 
