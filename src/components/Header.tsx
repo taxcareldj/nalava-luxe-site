@@ -18,7 +18,7 @@ const Header = () => {
         {/* ===== Logo Area ===== */}
         <a href="#" className="flex items-center gap-2">
           <img
-            src="/KilauJaktimnonbg.png" // pastikan file ini ada di folder public/
+            src="/KilauJaktimwhite.png" // pastikan file ini ada di folder public/
             alt="Kilau Jaktim Logo"
             className="h-8 w-auto"
           />
