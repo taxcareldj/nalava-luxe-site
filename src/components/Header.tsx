@@ -20,7 +20,7 @@ const Header = () => {
           <img
             src="/KilauJaktimwhite.png" // pastikan file ini ada di folder public/
             alt="Kilau Jaktim Logo"
-            className="h-8 w-auto"
+            className="h-16 w-auto"
           />
           <span className="text-xl font-bold text-primary-foreground tracking-tight">
             KilauJaktim
