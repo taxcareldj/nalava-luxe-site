@@ -20,7 +20,7 @@ const items = [
     id: 3,
     title: "Konsultasi Via WhatsApp",
     icon: MessageCircle,
-    href: "https://wa.me/6281234567890", // ubah ke nomor WhatsApp resmi
+    href: "https://wa.me/6285813305075", // ubah ke nomor WhatsApp resmi
     description: "Hubungi kami langsung untuk konsultasi",
   },
   {
@@ -34,7 +34,7 @@ const items = [
     id: 5,
     title: "Daftar Kontak KPP",
     icon: Phone,
-    href: "https://www.pajak.go.id/id/unit-kerja", // laman DJP kontak KPP
+    href: "https://www.pajak.go.id/daftar-unit-kerja", // laman DJP kontak KPP
     description: "Kontak lengkap Kantor Pelayanan Pajak",
   },
 ];
