@@ -80,7 +80,6 @@ const Home = () => {
 };
 
 
-export default Home;
 import { FileText } from "lucide-react";
 
 export default function Home() {
@@ -94,7 +93,6 @@ export default function Home() {
           Silakan pilih menu sesuai kebutuhan perpajakan anda
         </p>
 
-        {/* Kartu / tombol Tutorial Perpajakan */}
         <a
           href="https://www.youtube.com/@DitjenPajakRI/playlists"
           target="_blank"
@@ -113,6 +111,7 @@ export default function Home() {
     </section>
   );
 }
+
 
 
 
