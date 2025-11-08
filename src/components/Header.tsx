@@ -18,14 +18,15 @@ const Header = () => {
         {/* ===== Logo Area ===== */}
         <a href="#" className="flex items-center">
           <img
-            src="/KilauJaktim2.png" // pastikan file ini ada di folder public/
+            src="/KilauJaktim2.png"
             alt="Kilau Jaktim Logo"
-            className="h-16 w-auto"
+            className="h-16 w-auto mr-1" // menambah jarak halus dari sisi kanan logo
           />
-          <span className="text-xl font-bold text-primary-foreground tracking-tight">
+          <span className="text-xl font-bold text-primary-foreground tracking-tight -ml-1">
             KilauJaktim
           </span>
-        </a>
+      </a>
+
 
         {/* ===== Desktop Navigation ===== */}
         <div className="hidden md:flex items-center gap-6">
