@@ -1,4 +1,4 @@
-import { FileText, Phone, Database, MessageCircle, BookOpen } from "lucide-react";
+import { FileText, BookOpen, MessageCircle, Database, Phone } from "lucide-react";
 
 const items = [
   {
@@ -12,14 +12,14 @@ const items = [
     id: 2,
     title: "Standar Pelayanan Kanwil DJP Jakarta Timur",
     icon: BookOpen,
-    href: "https://drive.google.com",
-    description: "Lihat standar layanan resmi Kanwil DJP Jakarta Timur",
+    href: "https://drive.google.com", // ganti dengan link drive kamu
+    description: "Lihat standar pelayanan resmi Kanwil DJP Jakarta Timur",
   },
   {
     id: 3,
     title: "Konsultasi Via WhatsApp",
     icon: MessageCircle,
-    href: "https://wa.me/6281234567890", // ganti dengan nomor resmi
+    href: "https://wa.me/6281234567890", // ganti nomor WA resmi
     description: "Hubungi petugas pajak langsung melalui WhatsApp",
   },
   {
@@ -40,8 +40,8 @@ const items = [
 
 const Home = () => {
   return (
-    <section id="home" className="min-h-screen bg-background text-foreground flex flex-col items-center justify-center px-6 py-24">
-      <h1 className="text-3xl font-bold mb-10 text-center">Selamat Datang, #KawanPajak 👋</h1>
+    <section id="home" className="min-h-screen flex flex-col items-center justify-center px-6 py-24 bg-background text-foreground">
+      <h1 className="text-3xl font-bold mb-10 text-center">Selamat datang, #KawanPajak 👋</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl">
         {items.map(({ id, title, icon: Icon, href, description }) => (
           <a
