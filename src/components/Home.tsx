@@ -8,6 +8,7 @@ const items = [
     icon: FileText,
     href: "https://www.youtube.com/@DitjenPajakRI/playlists",
     description: "Panduan lengkap perpajakan untuk #KawanPajak",
+    external: true, // opsional untuk logika tambahan
   },
   {
     id: 2,
