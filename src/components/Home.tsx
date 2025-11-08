@@ -43,7 +43,7 @@ const Home = () => {
             Selamat datang, <span className="text-accent">#KawanPajak</span>
           </h1>
           <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto">
-            Portal Kanwil Direktorat Jenderal Pajak Jakarta Timur
+            Silakan pilih menu sesuai kebutuhan perpajakan anda
           </p>
         </div>
 
