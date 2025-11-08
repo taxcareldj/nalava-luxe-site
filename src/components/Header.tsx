@@ -20,7 +20,7 @@ const Header = () => {
           <img
             src="/KilauJaktim2.png"
             alt="Kilau Jaktim Logo"
-            className="h-16 w-auto mr-9" // menambah jarak halus dari sisi kanan logo
+            className="h-16 w-auto mr-0" // menambah jarak halus dari sisi kanan logo
           />
           <span className="text-xl font-bold text-primary-foreground tracking-tight -ml-9">
             KilauJaktim
