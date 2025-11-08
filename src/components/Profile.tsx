@@ -22,7 +22,7 @@ const Profile = () => {
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
                 src="https://www.youtube.com/watch?v=-W2D28yvGZY"
-                title="Video Profil Kanwil DJP Jakarta Timur"
+                title="Kanwil DJP Jakarta Timur menuju Wilayah Birokrasi Bersih dan Melayani (WBBM) Tahun 2023"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
