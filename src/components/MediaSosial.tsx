@@ -6,8 +6,8 @@ const socialLinks = [
   {
     name: "Email",
     icon: Mail,
-    href: "mailto:kontak@pajak.go.id",
-    description: "kontak@pajak.go.id",
+    href: "mailto:kanwil.110@pajak.go.id",
+    description: "kanwil.110@pajak.go.id",
   },
   {
     name: "Instagram",
