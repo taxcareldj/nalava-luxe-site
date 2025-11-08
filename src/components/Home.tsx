@@ -6,6 +6,7 @@ const items = [
     id: 1,
     title: "Tutorial Perpajakan",
     icon: FileText,
+    href: "https://www.youtube.com/@DitjenPajakRI/playlists",
     description: "Panduan lengkap perpajakan untuk #KawanPajak",
   },
   {
