@@ -22,7 +22,7 @@ const Header = () => {
             alt="Kilau Jaktim Logo"
             className="h-16 w-auto mr-1" // menambah jarak halus dari sisi kanan logo
           />
-          <span className="text-xl font-bold text-primary-foreground tracking-tight -ml-9">
+          <span className="text-xl font-bold text-primary-foreground tracking-tight -ml-99">
             KilauJaktim
           </span>
       </a>
