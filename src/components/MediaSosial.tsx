@@ -24,7 +24,7 @@ const socialLinks = [
   {
     name: "Facebook",
     icon: Facebook,
-    href: "https://www.facebook.com/kanwildjpjaktim",
+    href: "https://www.facebook.com/pajakjaktim",
     description: "Kanwil DJP Jakarta Timur",
   },
 ];
