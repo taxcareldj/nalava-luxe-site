@@ -79,9 +79,7 @@ const Home = () => {
   );
 };
 
-
-import { FileText } from "lucide-react";
-
+export default Home;
 export default function Home() {
   return (
     <section className="bg-blue-600 text-white py-10 px-6">
