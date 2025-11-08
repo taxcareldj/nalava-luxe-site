@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: "Home / Kilau Jaktim", href: "#home" },
+    { label: "Home", href: "#home" },
     { label: "Profile", href: "#profile" },
     { label: "Media Sosial", href: "#media-sosial" },
     { label: "More", href: "#more" },
